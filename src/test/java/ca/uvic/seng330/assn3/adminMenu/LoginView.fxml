@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+
+<Pane fx:id="root" fx:controller="ca.uvic.seng330.assn3.loginMenu.LoginController" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <Label layoutX="14.0" layoutY="14.0" text="Login">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Label>
+      <Label layoutX="18.0" layoutY="70.0" text="username:" />
+      <Label layoutX="18.0" layoutY="113.0" text="Password:" />
+      <TextField fx:id="account" layoutX="100.0" layoutY="65.0" />
+      <TextField fx:id="password" layoutX="100.0" layoutY="108.0" />
+      <Button fx:id="signin" layoutX="208.0" layoutY="173.0" mnemonicParsing="false" onAction="#signin" text="Sign in" />
+      <Text fx:id="errorMessage" fill="#d31919" layoutX="139.0" layoutY="250.0" strokeType="OUTSIDE" strokeWidth="0.0" text="" />
+   </children>
+</Pane>
