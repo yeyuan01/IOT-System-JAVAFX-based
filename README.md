@@ -1,4 +1,1 @@
-# assn3-javafx
-JavaFX starter code
-
-See https://github.com/SENG330/course/blob/master/assignment3.md
+This is a group project of SENG 310. Contributed by Shiyi Huo and Ye Yuan.
